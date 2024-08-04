@@ -1,3 +1,4 @@
+//
 class Solution {
     int i = 0;
     public String decodeString(String s) {

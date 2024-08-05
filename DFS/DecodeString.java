@@ -1,3 +1,4 @@
+// LazyGit
 class Solution {
     public String decodeString(String s) {
         Stack<StringBuilder> strSt = new Stack<>();

@@ -23,7 +23,6 @@ class Node {
 
 class Solution {
   public Node connect(Node root) {
-    // Node curr = root;
     Queue<Node> q = new LinkedList<>();
     if (root == null)
       return root;

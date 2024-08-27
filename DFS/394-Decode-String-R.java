@@ -22,7 +22,6 @@ class Solution {
             } else {
                 i++;
                 currStr.append(c);
-                
             }
         }
         return currStr.toString();

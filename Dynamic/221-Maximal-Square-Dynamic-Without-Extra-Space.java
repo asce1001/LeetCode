@@ -6,7 +6,6 @@ class Solution {
     int n = matrix[0].length;
     boolean flag = false;
     int max = Integer.MIN_VALUE;
-    // int[][] dp = new int[m + 1][n + 1];
     for (int i = 0; i < m; i++) {
       if (matrix[i][0] == '1') {
         max = 1;

@@ -6,9 +6,12 @@ class Solution {
             for(int j = i + 1; j < n - 1; j++){
                 for(int k = j + 1; k < n; k++){
                     if(nums[i] + nums[j] + nums[k] == 0){
-                        int[] arr = new int[]{nums[i], nums[j], nums[k]};
-                        Arrays.sort(arr);
-                        result.add(new ArrayList<>(Arrays.stream(arr).boxed().collect(Collectors.toCollection(ArrayList::new))));
+                        List<Integer> li = Arrays.asList(nums[i], nums[j], nums[k]);
+                        Collections.sort(li);
+                        result.add(li);
+                        // int[] arr = new int[]{nums[i], nums[j], nums[k]};
+                        // Arrays.sort(arr);
+                        // result.add(new ArrayList<>(Arrays.stream(arr).boxed().collect(Collectors.toCollection(ArrayList::new))));
                     }
                 }
             }

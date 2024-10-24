@@ -7,6 +7,6 @@ class Solution {
             }
         }
         if(target != 0) return false;
-        return true;
+        return target == 0;
     }
 }
